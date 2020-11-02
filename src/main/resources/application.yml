@@ -1,0 +1,28 @@
+server:
+  port: 8888
+neo4j:
+  url: bolt://127.0.0.1:7687
+  username: neo4j
+  password: 123456
+
+spring:
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false #开发时关闭缓存,不然没法看到实时页面
+    prefix: classpath:/templates/ # 默认路径
+    suffix: .html # 后缀
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/god_class_detection?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 15927029790
+
+
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
