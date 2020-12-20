@@ -18,6 +18,7 @@ import java.util.*;
  */
 @Component
 public class Neo4jUtil {
+
     private static Driver driver;
 
     @Autowired

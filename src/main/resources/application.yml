@@ -11,13 +11,13 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-    cache: false #开发时关闭缓存,不然没法看到实时页面
-    prefix: classpath:/templates/ # 默认路径
-    suffix: .html # 后缀
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/god_class_detection?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/advanced_database?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: 15927029790
 
