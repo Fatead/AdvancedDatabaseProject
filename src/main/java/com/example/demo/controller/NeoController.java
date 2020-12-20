@@ -13,9 +13,6 @@ import java.util.Map;
 public class NeoController {
 
 
-    @Autowired
-    private Neo4jUtil neo4jUtil;
-
 
     /**
      * 根据电影名得到票房信息
